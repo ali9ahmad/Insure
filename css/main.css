@@ -123,7 +123,7 @@ a{
     outline: none;
 }
 
-/* ----------------------------------------- */
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 /* HEADER RESPONSIVE STYLES START */
 
 .hidden-header {
@@ -181,12 +181,84 @@ a{
     .site-header__wrapper--end {
         display: none;
     }
-
+    
     .burger-menu {
         display: block;
     }
 }
-
 /* HEADER RESPONSIVE STYLES END */
-
 /* HEADER STYLES END */
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/* MAIN STYLES START */
+/* HERO STYLES START */
+.hero {
+    position: relative;
+    margin-bottom: 305px;
+    padding-top: 105px;
+    padding-bottom: 127px;
+    background-color: #2d2641;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 631px) calc(50% - 121px);
+}
+
+.hero-start {
+    width: 100%;
+    max-width: 540px;
+}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.hero-title::before {
+    display: block;
+    width: 150px;
+    height: 1px;
+    margin-bottom: 63px;
+    background-color: #fff;
+    content: "";
+}
+
+.hero-text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 13px 28px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+.hero-btn:active {
+    background-color: #fff;
+    color: #2c2830;
+}
+
+.hero-img {
+    position: absolute;
+    top: 105px;
+    right: calc(50% - 552px);
+}
+
+.hero-img-mobile {
+    display: none;
+}
+/* HERO STYLES END */
+/* MAIN STYLES START */

@@ -261,4 +261,82 @@ a{
     display: none;
 }
 /* HERO STYLES END */
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** DIFFERENT STYLES START **************/
+.different {
+    margin-bottom: 158px;
+}
+
+.different-title {
+    margin-top: 0;
+    margin-bottom: 96px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;
+}
+
+.different-title::before {
+    display: block;
+    width: 150px;
+    height: 1px;
+    margin-bottom: 63px;
+    background-color: #C396C6;
+    content: "";
+}
+
+.different__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.different__item {
+    width: 100%;
+    max-width: 350px;
+}
+
+.different__item--title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2c2830;
+}
+
+.different__item--title::before {
+    display: block;
+    width: 86px;
+    height: 86px;
+    margin-bottom: 32px;
+    border-radius: 50%;
+    background-color: #96A9C6;
+    background-image: url("../images/spark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.dollar-sign::before {
+    background-image: url(../images/dollor-sign.svg);
+}
+
+.user::before {
+    background-image: url(../images/user.svg);
+}
+
+.different__item--text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837d88;
+}
+
+/************** /DIFFERENT STYLES END **************/
 /* MAIN STYLES START */

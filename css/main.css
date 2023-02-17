@@ -341,7 +341,7 @@ a{
     .different__list {
         flex-wrap: wrap;
     }
-
+    
     .different__item:not(:last-child) {
         margin-bottom: 56px;
     }
@@ -354,18 +354,18 @@ a{
         line-height: 48px;
         text-align: center;
     }
-
+    
     .different-title::before {
         margin-right: auto;
         margin-bottom: 40px;
-
+        
     }
-
+    
     .different__list {
         justify-content: center;
         text-align: center;
     }
-
+    
     .different__item--title::before {
         margin-right: auto;
         margin-left: auto;
@@ -377,12 +377,49 @@ a{
 /* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 /************** FIND STYLES START  **************/
 
+.findmore {
+    margin-bottom: 150px;
+}
+
+.find__wrapper {
+    padding: 69px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2641;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 477px) calc(50% + 16px);;
+}
+
+.find__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 475px;
+    font-family: 'DM Serif Display';
+    /* font-weight: 400; */
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #fff;
+}
+
+.find__btn {
+    padding: 13px 24px;
+    font-style: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+.find__btn:active {
+    color: #2c2830;
+    background-color: #fff;
+}
+
+
+
 /************** FIND STYLES END  **************/
-
-
-
-/************** DEFFERENT RESPONSIVE END **************/
-
-
-/************** /DIFFERENT STYLES END **************/
 /* MAIN STYLES START */

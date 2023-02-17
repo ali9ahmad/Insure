@@ -541,15 +541,41 @@ a{
             width: 144px;
         }
         
+        .site-footer__end {
+            align-items:center;
+            justify-content: center;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
         .site-footer__list--info {
+            align-items:center;
             flex-wrap: wrap;
             text-align: center;
             margin-right: auto; 
             margin-left: auto;
         }
-
+        
+        .site-footer__item--info {
+            margin-bottom: 40px;
+        }
+    }
+    
+    @media only screen and (max-width:625px) {
+        
+        .site-footer__list--info {
+            align-items:center;
+            display: inline-block;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-right: auto; 
+            margin-left: auto;
+        }
         
     }
+    
+    
     /************** FOOTER RESPONSIVE END **************/
     
     /************** FOOTER STYLES END **************/

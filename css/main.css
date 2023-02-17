@@ -58,7 +58,6 @@ ul{
 a{
     text-decoration: none;
 }
-
 /* HEADER STYLES START */
 
 .site-header {
@@ -337,6 +336,53 @@ a{
     line-height: 26px;
     color: #837d88;
 }
+/************** DEFFERENT RESPONSIVE START **************/
+@media only screen and (max-width: 991px) {
+    .different__list {
+        flex-wrap: wrap;
+    }
+
+    .different__item:not(:last-child) {
+        margin-bottom: 56px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .different-title {
+        margin-bottom: 80px;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .different-title::before {
+        margin-right: auto;
+        margin-bottom: 40px;
+
+    }
+
+    .different__list {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .different__item--title::before {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/************** DIFFERENT RESPONSIVE DONE **************/
+/************** DIFFERENT STYLES DONE **************/
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** FIND STYLES START  **************/
+
+/************** FIND STYLES END  **************/
+
+
+
+/************** DEFFERENT RESPONSIVE END **************/
+
 
 /************** /DIFFERENT STYLES END **************/
 /* MAIN STYLES START */

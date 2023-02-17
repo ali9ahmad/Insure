@@ -419,7 +419,26 @@ a{
     background-color: #fff;
 }
 
+/************** FIND RESPONSIVE START **************/
 
+@media only screen and (max-width: 870px) {
+    .find__wrapper {
+        text-align: center;
+        padding: 72px 24px;
+        display: block;
+        background-position: calc(50% + 243px) calc(50% - 66px);;
+    }
 
+    .find__title {
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 40px;
+        width: 279px;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+/************** FIND RESPONSIVE END **************/
 /************** FIND STYLES END  **************/
 /* MAIN STYLES START */

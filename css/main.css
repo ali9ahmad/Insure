@@ -428,7 +428,7 @@ a{
         display: block;
         background-position: calc(50% + 243px) calc(50% - 66px);;
     }
-
+    
     .find__title {
         margin-right: auto;
         margin-left: auto;
@@ -442,3 +442,114 @@ a{
 /************** FIND RESPONSIVE END **************/
 /************** FIND STYLES END  **************/
 /* MAIN STYLES START */
+/* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+/************** FOOTER STYLES START **************/
+.site-footer {
+    padding-top: 67px;
+    padding-bottom: 64px;
+    background-color: #fafafa;
+    background-image:   url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 353px) calc(50% - 186px);
+}
+
+.site-footer__start {
+    padding-bottom: 37px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+    border-bottom: 1px solid #dadada;
+}
+
+.site-footer__list--socail {
+    display: flex;
+}
+
+.site-footer__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.site-footer__link path:active {
+    fill: #2C2830;
+}
+
+/* .site-footer__start::after { */
+    /* margin-bottom: 48px; */
+    /* width: 100%; */
+    /* max-width: 1110px; */
+    /* height: 1px; */
+    /* background: #DADADA; */
+    /* content: ""; */
+    /* } I AM NOT USING THIS OPTION*/
+    
+    .site-footer__list--info {
+        display: flex;
+    }
+    
+    .site-footer__item--info {
+        width: 255px;
+    }
+    
+    .site-footer__item--info:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    .site-footer__info--title {
+        margin-right: 0;
+        margin-bottom: 36px;
+        font-weight: 700px;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        color: #837d88;
+    }
+    
+    .info {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 700px;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 1.5px;
+        color: #2d2641;
+    }
+    
+    .info:active {
+        text-decoration: underline;
+    }
+    
+    /************** FOOTER RESPONSIVE START **************/
+    @media only screen and (max-width:800px) {
+        .site-footer__start {
+            display: block;
+            text-align: center;
+        }        
+        
+        .site-header__logo {
+            display: block;
+            margin-right: auto;
+            margin-bottom: 34px;
+            margin-left: auto;
+        }
+        
+        .site-footer__list--socail {
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+            width: 144px;
+        }
+        
+        .site-footer__list--info {
+            flex-wrap: wrap;
+            text-align: center;
+            margin-right: auto; 
+            margin-left: auto;
+        }
+
+        
+    }
+    /************** FOOTER RESPONSIVE END **************/
+    
+    /************** FOOTER STYLES END **************/
